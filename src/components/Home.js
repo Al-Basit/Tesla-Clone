@@ -1,64 +1,62 @@
-import React from 'react'
-import styled from 'styled-components'
-import Section from './Section';
-
+import React from "react";
+import styled from "styled-components";
+import Section from "./Section";
 
 function Home() {
   return (
     <Container>
       <Section
-           title="Model S"
-           description="Order Online for Touchless Delivery"
-           backgroundImg="model-s.jpg"
-           leftBtnText="Custom Order"
-           rightBtnText="Existing inventory"
+        title="Model S"
+        description={<p>Leasing starting at $349/mo</p>}
+        backgroundImg="model-s.jpg"
+        leftBtnText="Custom Order"
+        rightBtnText="Existing inventory"
       />
       <Section
-           title="Model Y"
-           description="Order Online for Touchless Delivery"
-           backgroundImg="model-y.jpg"
-           leftBtnText="Custom Order"
-           rightBtnText="Existing inventory"
+        title="Model Y"
+        backgroundImg="model-y.jpg"
+        leftBtnText="Custom Order"
+        rightBtnText="Existing inventory"
       />
       <Section
-           title="Model 3"
-           description="Order Online for Touchless Delivery"
-           backgroundImg="model-3.jpg"
-           leftBtnText="Custom Order"
-           rightBtnText="Existing inventory"
+        title="Model 3"
+        description={<a href="/#">Schedule a Demo Drive</a>}
+        backgroundImg="model-3.jpg"
+        leftBtnText="Custom Order"
+        rightBtnText="Existing inventory"
       />
       <Section
-           title="Model X"
-           description="Order Online for Touchless Delivery"
-           backgroundImg="model-x.jpg"
-           leftBtnText="Custom Order"
-           rightBtnText="Existing inventory"
+        title="Model X"
+        description={<a href="/#">Schedule a Demo Drive</a>}
+        backgroundImg="model-x.jpg"
+        leftBtnText="Custom Order"
+        rightBtnText="Existing inventory"
       />
       <Section
-           title="Lowest Cost Solar Panels in America"
-           description="Money-back guarantee"
-           backgroundImg="solar-panel.jpg"
-           leftBtnText="Order now"
-           rightBtnText="Learn more"
+        title="Solar Panels"
+        description={<p>Lowest Cost Solar Panels in America</p>}
+        backgroundImg="solar-panel.jpg"
+        leftBtnText="Order now"
+        rightBtnText="Learn more"
       />
       <Section
-           title="Solar for New Roofs"
-           description="Solar Roofs Costs Less Than a New Roof Plus Solar Panel"
-           backgroundImg="solar-roof.jpg"
-           leftBtnText="Order now"
-           rightBtnText="Learn more"
+        title="Solar Roof"
+        description={<p>Produce Clean Energy From Your Roof</p>}
+        backgroundImg="solar-roof.jpg"
+        leftBtnText="Order now"
+        rightBtnText="Learn more"
       />
       <Section
-           title="Accessories"
-           backgroundImg="accessories.jpg"
-           leftBtnText="Shop now"
+        title="Accessories"
+        backgroundImg="accessories.jpg"
+        leftBtnText="Shop now"
       />
     </Container>
-  )
+  );
 }
 
-export default Home
+export default Home;
 
 const Container = styled.div`
-     height: 100vh;
-`
+  height: 100vh;
+`;
