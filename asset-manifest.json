@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Al-Basit/Tesla-Clone.git/static/css/main.b1838109.css",
+    "main.js": "/Al-Basit/Tesla-Clone.git/static/js/main.213ebb7d.js",
+    "static/js/787.860837ff.chunk.js": "/Al-Basit/Tesla-Clone.git/static/js/787.860837ff.chunk.js",
+    "index.html": "/Al-Basit/Tesla-Clone.git/index.html",
+    "main.b1838109.css.map": "/Al-Basit/Tesla-Clone.git/static/css/main.b1838109.css.map",
+    "main.213ebb7d.js.map": "/Al-Basit/Tesla-Clone.git/static/js/main.213ebb7d.js.map",
+    "787.860837ff.chunk.js.map": "/Al-Basit/Tesla-Clone.git/static/js/787.860837ff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1838109.css",
+    "static/js/main.213ebb7d.js"
+  ]
+}
